@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+		body {
+			background-color: #00FA9A;
+			margin: 20px;
+			font-family: Arial, sans-serif;
+		}
+
+		h1 {
+			text-align: center;
+			font-size: 32px;
+			color: #FFFFFF;
+			text-shadow: 2px 2px 4px #000000;
+		}
+
+		img {
+			display: block;
+			margin: 0 auto;
+			max-width: 100%;
+			height: auto;
+		}
+
+		#caption {
+			font-size: 16px;
+			color: #000000;
+			text-align: center;
+		}
+
+		#tribute-data {
+			background-color: rgba(46, 139, 87, 0.25);
+			box-shadow: 5px 5px 10px #98FB98;
+			padding: 25px;
+			margin: 20px;
+		}
+
+		h2 {
+			font-size: 24px;
+			color: #FFFFFF;
+			text-align: center;
+			text-shadow: 2px 2px 4px #000000;
+		}
+
+		p {
+			font-size: 14px;
+			color: #000000;
+			line-height: 1.5;
+		}
+
+		a {
+			text-decoration: none;
+			color: #000000;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+	</style>
+</head>
+
+<body>
+	<main id="main">
+		<h1>A. P. J. Abdul Kalam</h1>
+
+		<div id="img">
+			<img src="APJ Kalam.png" alt="Error Loading Image">
+			<p id="caption">
+				Great Indian scientist and politician who played a leading role in the development of India’s missile and nuclear weapons programs.
+			</p>
+		</div>
+
+		<div id="tribute-data">
+			<h2>About the Legend</h2>
+			<p>
+				A.P.J. Abdul Kalam, in full Avul Pakir Jainulabdeen Abdul Kalam, was born on October 15, 1931, in Rameswaram, Tamil Nadu, India.
+				He served as the 11th President of India from 2002 to 2007.
+				Kalam earned a degree in aeronautical engineering from the Madras Institute of Technology and joined the Defence Research and Development Organisation (DRDO) in 1958.
+				In 1969, he moved to the Indian Space Research Organisation (ISRO), where he was project director of the SLV-III, the first satellite launch vehicle designed and produced in India.
+				Rejoining DRDO in 1982, Kalam planned the program that produced a number of successful missiles, which earned him the nickname "Missile Man."
+				Among those successes was Agni, India’s first intermediate-range ballistic missile, launched in 1989.
+				He also played a pivotal role in India's Pokhran-II nuclear tests in 1998, which established India as a nuclear power.
+				Kalam received several honors and awards for his contributions to science and technology, including the Bharat Ratna, India's highest civilian award.
+				He passed away on July 27, 2015, at the age of 83.
+			</p>
+		</div>
+
+		<p style="text-align: center;">
+			For more information, check out
+			<a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam" target="_blank"><b>A.P.J. Abdul Kalam</b> on Wikipedia</a>.
+		</p>
+	</main>
+</body>
+</html>
